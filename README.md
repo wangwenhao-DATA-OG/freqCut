@@ -1,7 +1,7 @@
-# pycutter
+# freqCut
 一个等频切割数列的包，通过最小化每组的实际频率与每组期望频率的残差平方和来寻找一个最优的离散组合切割方法
 # 安装
-pip install pycutter
+pip install freqCut
 
 # 功能
 1.支持左闭右开  
@@ -13,7 +13,7 @@ pip install pycutter
 
 # 示例
 ```
-from pycutter.cutter import freq_cut,cut_by_bins
+from freqCut.cutter import freq_cut,cut_by_bins
 import numpy as np
 if __name__=='__main__':
     data = [4,2,6,np.nan,2,2,None,3,4,10,3,7,1,1,10,5,4,7,7,8,10,8,8,9,10,10]
