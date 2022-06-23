@@ -41,7 +41,7 @@ data每个取值的占比。pd.Series
 等频分组  
 data:需要被等频分组的数列.array_like  
 threshold_distr:当小于1时，每个组期望的占比。当大于1时，分成多少组  
-min_distr:由于数据可能偏斜，所以无法严格遵守threshold_distr，此时你所能接受的最小的分组占比  
+min_distr:由于数据可能偏斜或集中，所以无法严格遵守threshold_distr，此时你所能接受的最小的分组占比  
 weight:与data对应的权重。array_like  
 return  
 bins:分组信息。例如 '[1,3), [3,5), [5,8), [8,10), [10,10]'。str  
